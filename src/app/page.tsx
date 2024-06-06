@@ -38,7 +38,7 @@ export default function Home() {
         <div className="wpb_text_column wpb_content_element">
           <div className="wpb_wrapper">
             <div className="title-h1 text-center">
-              <span><span className="light">pricing </span> table</span>
+              <span><span className="light">Reserve your</span> nick</span>
             </div>
           </div>
         </div>
