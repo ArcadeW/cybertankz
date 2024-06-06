@@ -24,7 +24,6 @@ export default function Home() {
         are in store. Join us as we embark on a rewritten past with CyberTankz!"
       />
 
-    <div id="mainContainer">
         <!-- Dust particle -->
         <div class="margin-body">
             <div>
@@ -112,7 +111,6 @@ export default function Home() {
                 </div>
             </div>
         </div>
-    </div>
     </main>
   );
 }
