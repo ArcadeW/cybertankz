@@ -408,4 +408,5 @@ html:not(.is-mobile) ::-webkit-scrollbar-thumb {
 button.cybr-btn.w-fit.h-13 {
     clip-path: var(--clip);
     padding: 10px;
+    font-size: 20px;
 }
