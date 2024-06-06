@@ -400,3 +400,7 @@ html:not(.is-mobile) ::-webkit-scrollbar-thumb {
   background-color: #fafafa;
   border: 3px solid #141414;
 }
+
+.opacity-10 {
+    opacity: .2;
+}
