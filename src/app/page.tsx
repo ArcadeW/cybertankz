@@ -36,7 +36,7 @@ export default function Home() {
           <p className="text-center mb-4">
             Reserve your exclusive nickname today! The in-game nickname must be a minimum of three characters long. Basic nicknames will be free upon the game's release!
           </p>
-          <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '71px' }}>
+          <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '50px' }}>
             <strong>Price:</strong> For free
           </p>
           <div className="flex flex-col items-center justify-center gap-2 pt-5">
