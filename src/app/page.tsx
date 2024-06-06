@@ -2,9 +2,12 @@ import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from "next/image";
 
+import React from 'react';
+
 export default function Home() {
   return (
-    <main className="flex flex-col h-screen">
+    <React.Fragment>
+      <main className="flex flex-col h-screen">
       <Image
         src="/wallpaper-new.png"
         alt="hero_wallpaper"
@@ -111,6 +114,6 @@ export default function Home() {
 </div>
 
 
-    </main>
+      </main>
+    </React.Fragment>
   );
-}
