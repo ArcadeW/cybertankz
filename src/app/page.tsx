@@ -39,7 +39,7 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '71px' }}>
             <strong>Price:</strong> For free
           </p>
-const customStyles = {
+          const customStyles = {
   "--primary": "hsl(0,0%,calc(0 * 1%))",
   "--shadow-primary": "hsl(180deg 100% 50%)",
   "--primary-hue": 0,
@@ -86,6 +86,7 @@ const customStyles = {
     </button>
   </a>
 </div>
+
         </div>
 
         {/* Premium Nickname Box */}
