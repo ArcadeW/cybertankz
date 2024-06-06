@@ -40,7 +40,7 @@ export default function Home() {
             <strong>Price:</strong> For free
           </p>
           <div className="flex flex-col items-center justify-center gap-2 pt-5">
-          <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.cybertankzforum.com/register/" target="_blank" rel="noopener noreferrer">
             <button className="cybr-btn w-fit h-13">
               Reserve your nick here
             <span aria-hidden="true">_</span>
@@ -64,12 +64,15 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4">
             <strong>Price:</strong> $15
           </p>
-          <a
-            href="https://buy.stripe.com/5kA9DF4NE6bYe3edQV"
-            className="reserve-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-          >
-            Reserve your nick here
+          <div className="flex flex-col items-center justify-center gap-2 pt-5">
+          <a href="https://buy.stripe.com/5kA9DF4NE6bYe3edQV" target="_blank" rel="noopener noreferrer">
+            <button className="cybr-btn w-fit h-13">
+              Reserve your nick here
+            <span aria-hidden="true">_</span>
+            <span aria-hidden="true" className="cybr-btn__glitch">Reserve your nick here</span>
+          </button>
           </a>
+          </div>
         </div>
 
         {/* Elite Nickname Box */}
@@ -86,12 +89,15 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4">
             <strong>Price:</strong> $30
           </p>
-          <a
-            href="https://buy.stripe.com/fZecPRcg61VI3oAcMS"
-            className="reserve-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-          >
-            Reserve your nick here
+         <div className="flex flex-col items-center justify-center gap-2 pt-5">
+          <a href="https://buy.stripe.com/fZecPRcg61VI3oAcMS" target="_blank" rel="noopener noreferrer">
+            <button className="cybr-btn w-fit h-13">
+              Reserve your nick here
+            <span aria-hidden="true">_</span>
+            <span aria-hidden="true" className="cybr-btn__glitch">Reserve your nick here</span>
+          </button>
           </a>
+          </div>
         </div>
       </div>
     </main>
