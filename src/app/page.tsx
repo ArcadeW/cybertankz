@@ -4,14 +4,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col h-screen">
+    <Main className="flex flex-col h-screen">
       <Image
         src="/wallpaper-new.png"
-        alt="hero_wallpaper"
-        width={1920}
-        height={1080}
-        className="absolute h-screen opacity-10 -z-10"
+        alt="Wallpaper"
+        layout="fill"
+        objectFit="cover"
+        priority
       />
+    </Main>
+  );
+}
       <GlitchSection
         text="CyberTankz"
         description=" It's time to embark on a journey across the battlefield where the
