@@ -34,12 +34,6 @@ export default function Home() {
     </div>
 
     <div className="row">
-      <div className="col-sm-12 col-md-12">
-        <div className="title-h1 text-center"><span><span className="light">pricing </span> table</span></div>
-      </div>
-    </div>
-
-    <div className="row">
       <div className="col-sm-3 col-md-3 pricing-column-wrapper">
         <div className="pricing-column">
           <div className="pricing-price">
