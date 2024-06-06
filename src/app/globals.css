@@ -1146,3 +1146,13 @@ body
     font-family: __distopianFont_276dbb, __distopianFont_Fallback_276dbb;
     font-size: 50px;
 }
+
+.title-h1 {
+    margin-top: .5em;
+    margin-bottom: 0.4em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    line-height: inherit;
+    color: #fff;
+    font-size: 38px;
+}
