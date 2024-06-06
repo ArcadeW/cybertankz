@@ -39,16 +39,17 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '71px' }}>
             <strong>Price:</strong> For free
           </p>
-<div class="flex flex-col items-center justify-center gap-2 pt-5">
+<div className="flex flex-col items-center justify-center gap-2 pt-5">
   <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
-    <button class="cybr-btn w-fit h-12">
+    <button className="cybr-btn w-fit h-12">
       Discord Server
       <span aria-hidden="true">_</span>
-      <span aria-hidden="true" class="cybr-btn__glitch">Discord Server_</span>
-      <span aria-hidden="true" class="cybr-btn__tag">JOIN</span>
+      <span aria-hidden="true" className="cybr-btn__glitch">Discord Server_</span>
+      <span aria-hidden="true" className="cybr-btn__tag">JOIN</span>
     </button>
   </a>
 </div>
+
         </div>
 
         {/* Premium Nickname Box */}
