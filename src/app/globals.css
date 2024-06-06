@@ -1141,3 +1141,8 @@ body
 .col-sm-12.col-md-12 {
     margin-top: -50px;
 }
+
+.title-h1.text-center {
+    font-family: __distopianFont_276dbb, __distopianFont_Fallback_276dbb;
+    font-size: 50px;
+}
