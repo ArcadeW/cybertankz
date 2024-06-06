@@ -25,73 +25,73 @@ export default function Home() {
       />
 
 <div id="mainContainer">
-  <div class="margin-body">
+  <div className="margin-body">
     <div>
-      <div class="starsec"></div>
-      <div class="starthird"></div>
-      <div class="starfourth"></div>
-      <div class="starfifth"></div>
+      <div className="starsec"></div>
+      <div className="starthird"></div>
+      <div className="starfourth"></div>
+      <div className="starfifth"></div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <div class="title-h1 text-center"><span><span class="light">pricing </span> table</span></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-3 col-md-3 pricing-column-wrapper">
-        <div class="pricing-column">
-          <div class="pricing-price">
-            <div class="pricing-cost">Free</div>
-            <div class="time">Price</div>
-          </div>
-          <div class="pricing-row-title">Free Nickname</div>
-          <figure class="pricing-row">Free nickname</figure>
-          <figure class="pricing-row"><span>Guaranteed in-game name.</span></figure>
-          <figure class="pricing-row"><span>3-20 letters/numbers.</span></figure>
-          <figure class="pricing-row"><span>Access to game after the game's release.</span></figure>
-          <div class="pricing-footer">
-            <div class="gem-button-container gem-button-position-center"><a href="#" class="gem-button gem-green">order now</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 col-md-3 pricing-column-wrapper">
-        <div class="pricing-column">
-          <div class="pricing-price">
-            <div class="pricing-cost">$15</div>
-            <div class="time">Price</div>
-          </div>
-          <div class="pricing-row-title">Premium Nickname</div>
-          <figure class="pricing-row">Unique two-letter/number name.</figure>
-          <figure class="pricing-row"><span>Guaranteed in-game name with 2 letters.</span></figure>
-          <figure class="pricing-row"><span>Early access to the game (July 2024).</span></figure>
-          <figure class="pricing-row">Special Paint "Premium Nick."</figure>
-          <div class="pricing-footer">
-            <div class="gem-button-container gem-button-position-center"><a href="#" class="gem-button gem-orange">order now</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 col-md-3 pricing-column-wrapper">
-        <div class="pricing-column">
-          <div class="pricing-price">
-            <div class="pricing-cost">$30</div>
-            <div class="time">Price</div>
-          </div>
-          <div class="pricing-row-title">Elite Nickname</div>
-          <figure class="pricing-row">Unique one-letter/number name.</figure>
-          <figure class="pricing-row"><span>Guaranteed in-game name with 1 letter.</span></figure>
-          <figure class="pricing-row"><span>Early access to the game (July 2024).</span></figure>
-          <figure class="pricing-row">Special Paint "Elite Nickname."</figure>
-          <div class="pricing-footer">
-            <div class="gem-button-container gem-button-position-center"><a href="#" class="gem-button gem-yellow">order now</a></div>
-          </div>
-        </div>
+    <div className="row">
+      <div className="col-sm-12 col-md-12">
+        <div className="title-h1 text-center"><span><span className="light">pricing </span> table</span></div>
       </div>
     </div>
 
+    <div className="row">
+      <div className="col-sm-3 col-md-3 pricing-column-wrapper">
+        <div className="pricing-column">
+          <div className="pricing-price">
+            <div className="pricing-cost">Free</div>
+            <div className="time">Price</div>
+          </div>
+          <div className="pricing-row-title">Free Nickname</div>
+          <figure className="pricing-row">Free nickname</figure>
+          <figure className="pricing-row"><span>Guaranteed in-game name.</span></figure>
+          <figure className="pricing-row"><span>3-20 letters/numbers.</span></figure>
+          <figure className="pricing-row"><span>Access to game after the game's release.</span></figure>
+          <div className="pricing-footer">
+            <div className="gem-button-container gem-button-position-center"><a href="#" className="gem-button gem-green">order now</a></div>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-3 col-md-3 pricing-column-wrapper">
+        <div className="pricing-column">
+          <div className="pricing-price">
+            <div className="pricing-cost">$15</div>
+            <div className="time">Price</div>
+          </div>
+          <div className="pricing-row-title">Premium Nickname</div>
+          <figure className="pricing-row">Unique two-letter/number name.</figure>
+          <figure className="pricing-row"><span>Guaranteed in-game name with 2 letters.</span></figure>
+          <figure className="pricing-row"><span>Early access to the game (July 2024).</span></figure>
+          <figure className="pricing-row">Special Paint "Premium Nick."</figure>
+          <div className="pricing-footer">
+            <div className="gem-button-container gem-button-position-center"><a href="#" className="gem-button gem-orange">order now</a></div>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-3 col-md-3 pricing-column-wrapper">
+        <div className="pricing-column">
+          <div className="pricing-price">
+            <div className="pricing-cost">$30</div>
+            <div className="time">Price</div>
+          </div>
+          <div className="pricing-row-title">Elite Nickname</div>
+          <figure className="pricing-row">Unique one-letter/number name.</figure>
+          <figure className="pricing-row"><span>Guaranteed in-game name with 1 letter.</span></figure>
+          <figure className="pricing-row"><span>Early access to the game (July 2024).</span></figure>
+          <figure className="pricing-row">Special Paint "Elite Nickname."</figure>
+          <div className="pricing-footer">
+            <div className="gem-button-container gem-button-position-center"><a href="#" className="gem-button gem-yellow">order now</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
     </main>
   );
 }
