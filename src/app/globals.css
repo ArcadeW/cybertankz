@@ -404,3 +404,8 @@ html:not(.is-mobile) ::-webkit-scrollbar-thumb {
 .opacity-10 {
     opacity: .2;
 }
+
+button.cybr-btn.w-fit.h-13 {
+    clip-path: var(--clip);
+    padding: 10px;
+}
