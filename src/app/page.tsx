@@ -39,17 +39,18 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '50px' }}>
             <strong>Price:</strong> For free
           </p>
-          <div className="flex flex-col items-center justify-center gap-2 pt-5">
-          <p className="price-info"><strong>Price:</strong> $15</p>
-          <a href="https://www.cybertankzforum.com/register/" target="_blank" rel="noopener noreferrer">
-            <button className="cybr-btn w-fit h-13">
-              Reserve your nick here
-            <span aria-hidden="true">_</span>
-            <span aria-hidden="true" className="cybr-btn__glitch">Reserve your nick here</span>
-          </button>
-          </a>
-          </p>
-          </div>
+<div className="flex flex-col items-center justify-center gap-2 pt-5">
+  <p className="price-info"><strong>Price:</strong> $15</p>
+  <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
+    <button className="cybr-btn w-fit h-12">
+      Discord Server
+      <span aria-hidden="true">_</span>
+      <span aria-hidden="true" className="cybr-btn__glitch">Discord Server_</span>
+      <span aria-hidden="true" className="cybr-btn__tag">JOIN</span>
+    </button>
+  </a>
+</div>
+
         </div>
 
         {/* Premium Nickname Box */}
