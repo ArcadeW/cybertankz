@@ -1135,6 +1135,9 @@ body
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    padding: 20px;
     align-items: stretch;
+}
+
+.col-sm-12.col-md-12 {
+    margin-top: -50px;
 }
