@@ -40,6 +40,7 @@ export default function Home() {
             <strong>Price:</strong> For free
           </p>
           <div className="flex flex-col items-center justify-center gap-2 pt-5">
+          <p className="price-info"><strong>Price:</strong> $15</p>
           <a href="https://www.cybertankzforum.com/register/" target="_blank" rel="noopener noreferrer">
             <button className="cybr-btn w-fit h-13">
               Reserve your nick here
@@ -47,6 +48,7 @@ export default function Home() {
             <span aria-hidden="true" className="cybr-btn__glitch">Reserve your nick here</span>
           </button>
           </a>
+          </p>
           </div>
         </div>
 
