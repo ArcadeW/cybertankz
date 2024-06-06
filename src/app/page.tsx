@@ -45,7 +45,6 @@ export default function Home() {
               Reserve your nick here
             <span aria-hidden="true">_</span>
             <span aria-hidden="true" className="cybr-btn__glitch">Reserve your nick here</span>
-          <span aria-hidden="true" className="cybr-btn__tag">RESERVE</span>
           </button>
           </a>
           </div>
