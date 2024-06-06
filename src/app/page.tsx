@@ -2,12 +2,9 @@ import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from "next/image";
 
-import React from 'react';
-
 export default function Home() {
   return (
-    <React.Fragment>
-      <main className="flex flex-col h-screen">
+    <main className="flex flex-col h-screen">
       <Image
         src="/wallpaper-new.png"
         alt="hero_wallpaper"
@@ -27,93 +24,73 @@ export default function Home() {
         are in store. Join us as we embark on a rewritten past with CyberTankz!"
       />
 
-      <div id="mainCoantiner">
-  <!--dust particel-->
-  <div class="margin-body">
-
-    <div>
-      <div class="starsec"></div>
-      <div class="starthird"></div>
-      <div class="starfourth"></div>
-      <div class="starfifth"></div>
-    </div>
-    <!--Dust particle end--->
-
-    <div class="pricing-column-wrapper">
-      <div class="pricing-column">
-        <div class="pricing-price-row">
-          <div class="pricing-price-wrapper">
-            <div class="pricing-price">
-              <div class="pricing-cost">Free</div>
-              <div class="time">Price</div>
-            </div>
-          </div>
+        <div className="flex flex-col items-center justify-center gap-4 p-5 reserve-box">
+        {/* Free Nickname Box */}
+        <div className="flex flex-col items-center justify-center p-5 bg-gray-100 rounded shadow-lg">
+          <img
+            src="https://i.imgur.com/bGiCzi1.png"
+            alt="Free Nickname Logo"
+            className="mb-4"
+          />
+          <h2 className="text-2xl font-bold mb-2 reserve-glitch" data-text="Free Nickname">Free Nickname</h2>
+          <p className="text-center mb-4">
+            Reserve your exclusive nickname today! The in-game nickname must be a minimum of three characters long. Basic nicknames will be free upon the game's release!
+          </p>
+          <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '71px' }}>
+            <strong>Price:</strong> For free
+          </p>
+          <a
+            href="https://www.cybertankzforum.com/register/"
+            className="reserve-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+          >
+            Reserve your nick here
+          </a>
         </div>
-        <div class="pricing-row-title">
-          <div class="pricing_row_title">Free Nickname</div>
+
+        {/* Premium Nickname Box */}
+        <div className="flex flex-col items-center justify-center p-5 bg-gray-100 rounded shadow-lg">
+          <img
+            src="https://i.imgur.com/DO8C8NG.png"
+            alt="Premium Nickname Logo"
+            className="mb-4"
+          />
+          <h2 className="text-2xl font-bold mb-2">Premium Nickname</h2>
+          <p className="text-center mb-4">
+            Do you consider yourself a tanker who enjoys feeling exclusive? Well, we have got just the thing for you: two-letter or number nicknames. With these unique nicknames, you will stand out in style. Are you ready to embrace your individuality with a stylish and iconic username?
+          </p>
+          <p className="text-center text-lg font-semibold mb-4">
+            <strong>Price:</strong> $15
+          </p>
+          <a
+            href="https://buy.stripe.com/5kA9DF4NE6bYe3edQV"
+            className="reserve-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+          >
+            Reserve your nick here
+          </a>
         </div>
-        <figure class="pricing-row">Free nickname</figure>
-        <figure class="pricing-row"><span>Guaranteed in-game name.</span></figure>
-        <figure class="pricing-row"><span>3-20 letters/numbers.</span></figure>
-        <figure class="pricing-row"><span>Access to game after the game's release.</span></figure>
-        <div class="pricing-footer">
-          <div class="gem-button-container gem-button-position-center"><a href="#" class="gem-button gem-green">order now</a></div>
+
+        {/* Elite Nickname Box */}
+        <div className="flex flex-col items-center justify-center p-5 bg-gray-100 rounded shadow-lg">
+          <img
+            src="https://i.imgur.com/eLK5cns.png"
+            alt="Elite Nickname Logo"
+            className="mb-4"
+          />
+          <h2 className="text-2xl font-bold mb-2">Elite Nickname</h2>
+          <p className="text-center mb-4">
+            A brand-new feature which was considered to be impossible in all Tanki versions, a nickname that contains one character. Now you can reserve premium one letter/number nicknames! Get your ticket today and start your unique journey!
+          </p>
+          <p className="text-center text-lg font-semibold mb-4">
+            <strong>Price:</strong> $30
+          </p>
+          <a
+            href="https://buy.stripe.com/fZecPRcg61VI3oAcMS"
+            className="reserve-btn px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+          >
+            Reserve your nick here
+          </a>
         </div>
       </div>
-    </div>
-
-    <div class="pricing-column-wrapper">
-      <div class="pricing-column">
-        <div class="pricing-price-row">
-          <div class="pricing-price-wrapper">
-            <div class="pricing-price">
-              <div class="pricing-cost">$15</div>
-              <div class="time">Price</div>
-            </div>
-          </div>
-        </div>
-        <div class="pricing-row-title">
-          <div class="pricing_row_title">Premium Nickname</div>
-        </div>
-        <figure class="pricing-row">Unique two-letter/number name.</figure>
-        <figure class="pricing-row"><span>Guaranteed in-game name with 2 letters.</span></figure>
-        <figure class="pricing-row"><span style="color: #5f727f;">Early access to the game (July 2024).</span></figure>
-        <figure class="pricing-row">Special Paint "Premium Nick."</figure>
-        <div class="pricing-footer">
-          <div class="gem-button-container gem-button-position-center">
-            <a class="gem-button gem-orange">order now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pricing-column-wrapper">
-      <div class="pricing-column">
-        <div class="pricing-price-row">
-          <div class="pricing-price-wrapper">
-            <div class="pricing-price">
-              <div style=" " class="pricing-cost">30$</div>
-              <div class="time" style="display:inline-block;">Price</div>
-            </div>
-          </div>
-        </div>
-        <div class="pricing-row-title">
-          <div class="pricing_row_title">Elite Nickname</div>
-        </div>
-        <figure class="pricing-row">Unique one-letter/number name.</figure>
-        <figure class="pricing-row"><span style="color: #5f727f;">Guaranteed in-game name with 1 letter.</span></figure>
-        <figure class="pricing-row"><span style="color: #5f727f;">Early access to the game (July 2024).</span></figure>
-        <figure class="pricing-row">Special Paint "Elite Nickname."</figure>
-        <div class="pricing-footer">
-          <div class="gem-button-container gem-button-position-center"><a class="gem-button gem-yellow">order now</a></div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-      </main>
-    </React.Fragment>
+    </main>
   );
+}
