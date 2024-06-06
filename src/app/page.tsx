@@ -39,12 +39,17 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '71px' }}>
             <strong>Price:</strong> For free
           </p>
-      <div className="flex items-center justify-center gap-2 pt-5">
-        <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
-          <CyberButton title="Discord Server" symbol="JOIN" className="w-fit h-12" /> 
-          {/* <CyberButton title="Discord Server" className="w-fit" /> */}
-        </a>
-      </div>
+<div className="flex items-center justify-center gap-2 pt-5">
+  <a
+    href="https://discord.gg/pkCbWeuybb"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="no-underline" // optional: if you want to remove default underline
+  >
+    <CyberButton title="Discord Server" symbol="JOIN" className="w-fit h-12" />
+  </a>
+</div>
+
         </div>
 
         {/* Premium Nickname Box */}
