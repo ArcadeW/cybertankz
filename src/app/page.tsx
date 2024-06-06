@@ -42,7 +42,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center gap-2 pt-5">
           <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
             <button className="cybr-btn w-fit h-13">
-              Discord Server
+              Reserve your nick here
             <span aria-hidden="true">_</span>
             <span aria-hidden="true" className="cybr-btn__glitch">Reserve your nick here</span>
           <span aria-hidden="true" className="cybr-btn__tag">RESERVE</span>
