@@ -39,44 +39,46 @@ export default function Home() {
           <p className="text-center text-lg font-semibold mb-4" style={{ marginTop: '71px' }}>
             <strong>Price:</strong> For free
           </p>
+const customStyles = {
+  "--primary": "hsl(0,0%,calc(0 * 1%))",
+  "--shadow-primary": "hsl(180deg 100% 50%)",
+  "--primary-hue": 0,
+  "--primary-lightness": 0,
+  "--color": "#fff",
+  "--font-size": "26px",
+  "--shadow-primary-hue": 180,
+  "--label-size": "9px",
+  "--shadow-secondary-hue": 60,
+  "--shadow-secondary": "hsl(var(--shadow-secondary-hue),90%,60%)",
+  "--clip": "polygon(0 0,100% 0,100% 100%,95% 100%,95% 90%,85% 90%,85% 100%,8% 100%,0 70%)",
+  "--border": "4px",
+  "--shimmy-distance": 5,
+  "--clip-one": "polygon(0 2%,100% 2%,100% 95%,95% 95%,95% 90%,85% 90%,85% 95%,8% 95%,0 70%)",
+  "--clip-two": "polygon(0 78%,100% 78%,100% 100%,95% 100%,95% 90%,85% 90%,85% 100%,8% 100%,0 78%)",
+  "--clip-three": "polygon(0 44%,100% 44%,100% 54%,95% 54%,95% 54%,85% 54%,85% 54%,8% 54%,0 54%)",
+  "--clip-four": "polygon(0 0,100% 0,100% 0,95% 0,95% 0,85% 0,85% 0,8% 0,0 0)",
+  "--clip-five": "polygon(0 0,100% 0,100% 0,95% 0,95% 0,85% 0,85% 0,8% 0,0 0)",
+  "--clip-six": "polygon(0 40%,100% 40%,100% 85%,95% 85%,95% 85%,85% 85%,85% 85%,8% 85%,0 70%)",
+  "--clip-seven": "polygon(0 63%,100% 63%,100% 80%,95% 80%,95% 80%,85% 80%,85% 80%,8% 80%,0 70%)",
+  "fontFamily": "Cyber, sans-serif",
+  "color": "var(--color)",
+  "cursor": "pointer",
+  "background": "#000",
+  "textTransform": "uppercase",
+  "fontSize": "var(--font-size)",
+  "outline": "transparent",
+  "letterSpacing": "2px",
+  "position": "relative",
+  "fontWeight": 700,
+  "border": 0,
+  "minWidth": "250px",
+  "transition": "background .2s",
+  "clipPath": "var(--clip)"
+};
+
 <div className="flex flex-col items-center justify-center gap-2 pt-5">
   <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
-    <button className="cybr-btn w-fit h-12" style={{
-      "--primary": "hsl(0,0%,calc(0 * 1%))",
-      "--shadow-primary": "hsl(180deg 100% 50%)",
-      "--primary-hue": 0,
-      "--primary-lightness": 0,
-      "--color": "#fff",
-      "--font-size": "26px",
-      "--shadow-primary-hue": 180,
-      "--label-size": "9px",
-      "--shadow-secondary-hue": 60,
-      "--shadow-secondary": "hsl(var(--shadow-secondary-hue),90%,60%)",
-      "--clip": "polygon(0 0,100% 0,100% 100%,95% 100%,95% 90%,85% 90%,85% 100%,8% 100%,0 70%)",
-      "--border": "4px",
-      "--shimmy-distance": 5,
-      "--clip-one": "polygon(0 2%,100% 2%,100% 95%,95% 95%,95% 90%,85% 90%,85% 95%,8% 95%,0 70%)",
-      "--clip-two": "polygon(0 78%,100% 78%,100% 100%,95% 100%,95% 90%,85% 90%,85% 100%,8% 100%,0 78%)",
-      "--clip-three": "polygon(0 44%,100% 44%,100% 54%,95% 54%,95% 54%,85% 54%,85% 54%,8% 54%,0 54%)",
-      "--clip-four": "polygon(0 0,100% 0,100% 0,95% 0,95% 0,85% 0,85% 0,8% 0,0 0)",
-      "--clip-five": "polygon(0 0,100% 0,100% 0,95% 0,95% 0,85% 0,85% 0,8% 0,0 0)",
-      "--clip-six": "polygon(0 40%,100% 40%,100% 85%,95% 85%,95% 85%,85% 85%,85% 85%,8% 85%,0 70%)",
-      "--clip-seven": "polygon(0 63%,100% 63%,100% 80%,95% 80%,95% 80%,85% 80%,85% 80%,8% 80%,0 70%)",
-      "fontFamily": "Cyber, sans-serif",
-      "color": "var(--color)",
-      "cursor": "pointer",
-      "background": "#000",
-      "textTransform": "uppercase",
-      "fontSize": "var(--font-size)",
-      "outline": "transparent",
-      "letterSpacing": "2px",
-      "position": "relative",
-      "fontWeight": 700,
-      "border": 0,
-      "minWidth": "250px",
-      "transition": "background .2s",
-      "clipPath": "var(--clip)"
-    }}>
+    <button className="cybr-btn w-fit h-12" style={customStyles}>
       Discord Server
       <span aria-hidden="true">_</span>
       <span aria-hidden="true" className="cybr-btn__glitch">Discord Server_</span>
