@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-p9xBrfoV+M2mO56e0X90DV68YRZgP3xQg2t2R9DIeQT1wxdSKPlNOK9dKEHdf/dmxTM6xgwN2woK/h0P6K3x3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
