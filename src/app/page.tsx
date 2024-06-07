@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="relative flex flex-col w-full h-screen">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha384-PM1V4nELG3jkAWB1JsOnXdLZVM+kkbXYrjkhBj9sJzyGSrkc5M5Y++vKWNPJ7bFZ" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha384-PM1V4nELG3jkAWB1JsOnXdLZVM+kkbXYrjkhBj9sJzyGSrkc5M5Y++vKWNPJ7bFZ" crossOrigin="anonymous">
       <GlitchSection
         text="CyberTankz"
         description=" It's time to embark on a journey across the battlefield where the
