@@ -12,10 +12,6 @@ export default function Home() {
         objectFit="cover"
         className="opacity-10 -z-10"
       />
-    </main>
-  );
-}
-
   
       <GlitchSection
         text="CyberTankz"
