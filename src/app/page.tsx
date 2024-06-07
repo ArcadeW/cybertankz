@@ -53,7 +53,6 @@ export default function Home() {
             <div className="pricing-price-wrapper">
               <div className="pricing-price">
                 <div className="pricing-cost">Free</div>
-                <div className="time">Price</div>
               </div>
             </div>
           </div>
@@ -75,7 +74,6 @@ export default function Home() {
             <div className="pricing-price-wrapper">
               <div className="pricing-price">
                 <div className="pricing-cost">$15</div>
-                <div className="time">Price</div>
               </div>
             </div>
           </div>
@@ -97,7 +95,6 @@ export default function Home() {
             <div className="pricing-price-wrapper">
               <div className="pricing-price">
                 <div className="pricing-cost">$30</div>
-                <div className="time" style={{ display: "inline-block" }}>Price</div>
               </div>
             </div>
           </div>
