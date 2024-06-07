@@ -1,17 +1,21 @@
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
-<main className="flex flex-col w-full h-full">
-  <Image
-    src="/wallpaper-new.png"
-    alt="hero_wallpaper"
-    width={1920}
-    height={1080}
-    className="absolute w-full h-full object-cover opacity-10 -z-10"
-  />
+    <main className="relative flex flex-col w-full h-screen">
+      <Image
+        src="/wallpaper-new.png"
+        alt="hero_wallpaper"
+        layout="fill"
+        objectFit="cover"
+        className="opacity-10 -z-10"
+      />
+    </main>
+  );
+}
+
   
       <GlitchSection
         text="CyberTankz"
