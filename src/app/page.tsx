@@ -1,7 +1,30 @@
+
+import Head from 'next/head';
+import GlitchSection from "@/components/modules/home/glitch-section";
+import Image from 'next/image';
+
+// Your component
+export default function Home() {
+  return (
+    <>
+      {/* Include Font Awesome CSS in the head of the document */}
+      <Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-p9xBrfoV+M2mO56e0X90DV68YRZgP3xQg2t2R9DIeQT1wxdSKPlNOK9dKEHdf/dmxTM6xgwN2woK/h0P6K3x3w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+      </Head>
+      
+      {/* Your other JSX content */}
+      <GlitchSection />
+      <Image />
+      {/* Add more components or content here */}
+    </>
+  );
+}
+
+
+
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-p9xBrfoV+M2mO56e0X90DV68YRZgP3xQg2t2R9DIeQT1wxdSKPlNOK9dKEHdf/dmxTM6xgwN2woK/h0P6K3x3w==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
 
 export default function Home() {
   return (
