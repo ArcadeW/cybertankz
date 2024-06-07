@@ -5,14 +5,6 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="relative flex flex-col w-full h-screen">
-    <Image
-      src="/wallpaper-new.png"
-      alt="hero_wallpaper"
-      layout="fill"
-      objectFit="cover"
-      objectPosition="center"
-      className="opacity-10"
-    />
   
       <GlitchSection
         text="CyberTankz"
