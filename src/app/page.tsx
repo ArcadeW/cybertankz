@@ -1,6 +1,3 @@
-export default MyApp;
-
-
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
