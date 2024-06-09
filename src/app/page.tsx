@@ -1,3 +1,7 @@
+import Head from 'next/head'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'
+
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
@@ -8,13 +12,14 @@ export default function Home() {
       <GlitchSection
         text="CyberTankz"
         description=" It's time to embark on a journey across the battlefield where the
-        past meets the present. The game will take you from 2020 to 2024 and
+        past meets the present. The game will take you from 2017 to 2020 and
         offer you an unforgettable experience. With over 31 ranks to achieve,
         each map offers familiar yet new battles and challenges. Plenty of
         special quests and unique rewards await you to make you stand out on the
         battlefield. The future of CyberTankz will be developed based on your
         feedback, but rest assured that both new and old fan-favourite features
-        are in store. Join us as we embark on a rewritten past with CyberTankz!"
+        are in store. Join us as we embark on a rewritten past with CyberTankz!"     <FontAwesomeIcon icon={faFaceRelieved} />
+
       />
 
 <div id="mainContainer">
