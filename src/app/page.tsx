@@ -1,6 +1,8 @@
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'
 
 export default function Home() {
   return (
@@ -15,7 +17,6 @@ export default function Home() {
         battlefield. The future of CyberTankz will be developed based on your
         feedback, but rest assured that both new and old fan-favourite features
         are in store. Join us as we embark on a rewritten past with CyberTankz!"
-
       />
 
 <div id="mainContainer">
@@ -50,7 +51,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pricing-row-title"><span style={{ color: "#00bcd4" }}>Free Nickname</span></div>
-          <figure className="pricing-row">Free nickname and access to the forum.</figure>
+              <FontAwesomeIcon icon={faFaceRelieved} /> <figure className="pricing-row">Free nickname and access to the forum.</figure>
           <figure className="pricing-row"><span>Guaranteed in-game name with 3-20 letters.</span></figure>
           <figure className="pricing-row"><span>Access to game after the game's release.</span></figure>
           <figure className="pricing-row"><span>Special Paint "Free Nick" in-game.</span></figure>
