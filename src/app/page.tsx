@@ -1,8 +1,6 @@
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'
 
 export default function Home() {
   return (
