@@ -55,7 +55,7 @@ export default function Home() {
           <figure className="pricing-row"><span>Special Paint "Free Nick" in-game.</span></figure>
           <div className="pricing-footer">
             <div className="gem-button-container gem-button-position-center">
-              <a href="#" className="gem-button gem-green">reserve now</a>
+              <a href="https://www.cybertankzforum.com/register/" className="gem-button gem-green">reserve now</a>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Home() {
           <figure className="pricing-row">Special Paint "Premium Nick."</figure>
           <div className="pricing-footer">
             <div className="gem-button-container gem-button-position-center">
-              <a href="#" className="gem-button gem-orange">reserve now</a>
+              <a href="https://buy.stripe.com/5kA9DF4NE6bYe3edQV" className="gem-button gem-orange">reserve now</a>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function Home() {
           <figure className="pricing-row">Special Paint "Elite Nickname."</figure>
           <div className="pricing-footer">
             <div className="gem-button-container gem-button-position-center">
-              <a href="#" className="gem-button gem-yellow">reserve now</a>
+              <a href="https://buy.stripe.com/fZecPRcg61VI3oAcMS" className="gem-button gem-yellow">reserve now</a>
             </div>
           </div>
         </div>
