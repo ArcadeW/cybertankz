@@ -1179,3 +1179,10 @@ body::before {
     z-index: -1; 
     pointer-events: none;
 }
+
+.pricing-row-title {
+    line-height: 38px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
