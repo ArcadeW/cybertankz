@@ -48,7 +48,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="pricing-row-title">Free Nickname</div>
+          <div className="pricing-row-title"><span style={{ color: "#00bcd4" }}>Free Nickname</span></div>
           <figure className="pricing-row">Free nickname and access to the forum.</figure>
           <figure className="pricing-row"><span>Guaranteed in-game name with 3-20 letters.</span></figure>
           <figure className="pricing-row"><span>Access to game after the game's release.</span></figure>
@@ -69,7 +69,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="pricing-row-title">Premium Nickname</div>
+          <div className="pricing-row-title"><span style={{ color: "#a637ec" }}>Premium Nickname</span></div>
           <figure className="pricing-row">Unique two-letter/number name.</figure>
           <figure className="pricing-row"><span>Guaranteed in-game name with 2 letters.</span></figure>
           <figure className="pricing-row"><span style={{ color: "#5f727f" }}>Early access to the game (July 2024).</span></figure>
@@ -90,7 +90,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="pricing-row-title">Elite Nickname</div>
+          <div className="pricing-row-title"><span style={{ color: "#ee417c" }}>Elite Nickname</span></div>
           <figure className="pricing-row">Unique one-letter/number name.</figure>
           <figure className="pricing-row"><span style={{ color: "#5f727f" }}>Guaranteed in-game name with 1 letter.</span></figure>
           <figure className="pricing-row"><span style={{ color: "#5f727f" }}>Early access to the game (July 2024).</span></figure>
