@@ -18,7 +18,7 @@ export default function Home() {
         special quests and unique rewards await you to make you stand out on the
         battlefield. The future of CyberTankz will be developed based on your
         feedback, but rest assured that both new and old fan-favourite features
-        are in store. Join us as we embark on a rewritten past with CyberTankz!"     <FontAwesomeIcon icon={faFaceRelieved} />
+        are in store. Join us as we embark on a rewritten past with CyberTankz!"
 
       />
 
