@@ -1,8 +1,6 @@
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'
 
 export default function Home() {
   return (
@@ -51,7 +49,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pricing-row-title"><span style={{ color: "#00bcd4" }}>Free Nickname</span></div>
-              <FontAwesomeIcon icon={faFaceRelieved} /> <figure className="pricing-row">Free nickname and access to the forum.</figure>
+          <figure className="pricing-row">Free nickname and access to the forum.</figure>
           <figure className="pricing-row"><span>Guaranteed in-game name with 3-20 letters.</span></figure>
           <figure className="pricing-row"><span>Access to game after the game's release.</span></figure>
           <figure className="pricing-row"><span>Special Paint "Free Nick" in-game.</span></figure>
