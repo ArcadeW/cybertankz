@@ -1,3 +1,25 @@
+import '../styles/globals.css';
+import Head from 'next/head';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+          integrity="sha384-DNOHZ68U8hZgsM+KnwC5zD6b8cu5Tl9Hx8HS6WwxEFLuPpbvaT2nv6A8yYjz1bH3"
+          crossorigin="anonymous"
+        />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+}
+
+export default MyApp;
+
+
 import Button from "@/components/modules/home/button";
 import GlitchSection from "@/components/modules/home/glitch-section";
 import Image from 'next/image';
