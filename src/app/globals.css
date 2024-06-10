@@ -1186,3 +1186,20 @@ body::before {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 768px) {
+    html.dark {
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        font-family: Barlow, sans-serif;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .row {
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: stretch;
+    }
+}
