@@ -1190,17 +1190,18 @@ body::before {
 @media only screen and (max-width: 768px) {
     html.dark {
         height: 100vh;
-        overflow: hidden;
+        overflow-y: auto; 
         display: flex;
         font-family: Barlow, sans-serif;
         margin-top: 100px;
         align-items: center;
+        flex-direction: column; 
     }
 
     .row {
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center; 
         width: 100%;
-        align-items: stretch;
     }
 }
