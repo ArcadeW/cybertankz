@@ -1205,3 +1205,9 @@ body::before {
         width: 100%;
     }
 }
+
+.px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    z-index: 1;
+}
