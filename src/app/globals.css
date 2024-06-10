@@ -1198,6 +1198,7 @@ body::before {
     }
 
     .row {
+        display: block;
         justify-content: space-evenly;
         width: 100%;
         align-items: stretch;
