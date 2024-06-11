@@ -1207,6 +1207,7 @@ body::before {
         padding-left: 3rem;
         padding-right: 3rem;
         z-index: 1;
+        background: transparent;
     }
 
     .row {
