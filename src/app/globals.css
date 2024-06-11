@@ -1198,6 +1198,12 @@ body::before {
         flex-direction: column; 
     }
 
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 1;
+  }
+
     .row {
         display: flex;
         flex-direction: column;
