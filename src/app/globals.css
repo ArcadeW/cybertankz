@@ -1207,9 +1207,12 @@ body::before {
         padding-left: 3rem;
         padding-right: 3rem;
         z-index: 1;
-        background: transparent;
     }
 
+    nav.fixed.top-0.flex.items-center.justify-between.w-full.h-14.border-b.border-foreground\/20.px-4.lg\:px-14 {
+        background: transparent;
+    }
+  
     .row {
         display: flex;
         flex-direction: column;
