@@ -466,7 +466,6 @@ background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/
 .folio-btn {
     position: absolute;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.03);
     border-top: 1px solid rgba(255,255,255,0.1);
     right: 0;
     height: 70px;
