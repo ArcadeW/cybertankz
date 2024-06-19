@@ -13,7 +13,7 @@ export const links=[
     },
     {
         title: "Forum",
-        url: "https://www.cybertankzforum.com/"
+        url: "https://en.cybertankzforum.com/"
     },
     {
         title: "Wiki",
