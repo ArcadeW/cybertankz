@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import styles from "./glitch.module.scss";
 import { distopianFont, inter } from "@/lib/font";
 import CyberButton from "../button";
+import { useTranslations } from "next-intl";
 
 export default function GlitchSection({
   text,
@@ -10,6 +11,8 @@ export default function GlitchSection({
   text: string;
   description: string;
 }) {
+  const t = useTranslations("Index");
+
   return (
     <div
       className={cn(
@@ -29,16 +32,27 @@ export default function GlitchSection({
         {description}
       </p>
       <div className="flex items-center justify-center gap-2 pt-5">
-        <CyberButton title="Download Game" symbol="DWN" className="w-fit h-11" />
+        <CyberButton
+          title={t("download")}
+          symbol="DWN"
+          className="w-fit h-11"
+        />
         {/* <CyberButton title="Download Game" className="w-fit" /> */}
       </div>
       <div className="flex items-center justify-center gap-2 pt-5">
-        <a href="https://discord.gg/pkCbWeuybb" target="_blank" rel="noopener noreferrer">
-          <CyberButton title="Discord Server" symbol="JOIN" className="w-fit h-12" /> 
+        <a
+          href="https://discord.gg/pkCbWeuybb"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <CyberButton
+            title={t("discord")}
+            symbol="JOIN"
+            className="w-fit h-11 yellow"
+          />
           {/* <CyberButton title="Discord Server" className="w-fit" /> */}
         </a>
       </div>
-
     </div>
   );
 }
