@@ -55,7 +55,7 @@ export default function Home() {
           <figure className="pricing-row"><span>Special Paint "Free Nick" in-game.</span></figure>
           <div className="pricing-footer">
             <div className="gem-button-container gem-button-position-center">
-              <a href="https://www.cybertankzforum.com/register/" className="gem-button gem-green">reserve now</a>
+              <a href="https://en.cybertankzforum.com/register" className="gem-button gem-green">reserve now</a>
             </div>
           </div>
         </div>
