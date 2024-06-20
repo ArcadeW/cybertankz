@@ -5,9 +5,23 @@ import Link from "next/link";
 import { links } from "./links";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("Links");
+
+  console.log(pathname);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -50,10 +64,22 @@ export default function Navbar() {
                   : "text-foreground hover:text-foreground/80"
               )}
             >
-              {link.title}
+              {t(`${link.title}`)}
             </Link>
           </li>
         ))}
+        <Select
+          onValueChange={(value: string) => router.push(`/${value}`)}
+          defaultValue={pathname.substring(1)}
+        >
+          <SelectTrigger className="w-[140px] bg-[#171819] text-foreground">
+            <SelectValue placeholder="Language" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="en">English</SelectItem>
+            <SelectItem value="ru">Russian</SelectItem>
+          </SelectContent>
+        </Select>
       </ul>
     </nav>
   );

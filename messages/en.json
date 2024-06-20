@@ -1,0 +1,52 @@
+{
+  "Index": {
+    "description": "It's time to embark on a journey across the battlefield where the past meets the present. The game will take you from 2017 to 2020 and offer you an unforgettable experience. With over 31 ranks to achieve, each map offers familiar yet new battles and challenges. Plenty of special quests and unique rewards await you to make you stand out on the battlefield. The future of CyberTankz will be developed based on your feedback, but rest assured that both new and old fan-favourite features are in store. Join us as we embark on a rewritten past with CyberTankz!",
+    "reservation": "Reserve your nick",
+    "download": "Download Game",
+    "discord": "Discord server"
+  },
+  "Links": {
+    "home": "Home",
+    "news": "News",
+    "rules": "Rules",
+    "forum": "Forum",
+    "wiki": "wiki",
+    "esports": "eSports",
+    "gallery": "Gallery"
+  },
+  "PricingPlans": {
+    "free": {
+      "title": "Free Nickname",
+      "features": [
+        "Free nickname and access to the forum.",
+        "Guaranteed in-game nickname with 3-20 characters.",
+        "Access to the game after release.",
+        "Special 'Free Nickname' paint in the game."
+      ],
+      "link": "https://en.cybertankzforum.com/register",
+      "buttonClass": "gem-green"
+    },
+    "premium": {
+      "title": "Premium Nickname",
+      "features": [
+        "Unique nickname with two characters.",
+        "Guaranteed in-game nickname with 2 characters.",
+        "Early access to the game (July 2024).",
+        "Special 'Premium Nickname' paint in the game."
+      ],
+      "link": "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
+      "buttonClass": "gem-orange"
+    },
+    "elite": {
+      "title": "Elite Nickname",
+      "features": [
+        "Unique nickname with one character.",
+        "Guaranteed in-game nickname with 1 character.",
+        "Early access to the game (July 2024).",
+        "Special 'Elite Nickname' paint in the game."
+      ],
+      "link": "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
+      "buttonClass": "gem-yellow"
+    }
+  }
+}
