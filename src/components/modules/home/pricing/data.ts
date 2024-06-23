@@ -9,7 +9,7 @@ export interface PricingPlan {
   title: string;
   color: string;
   features: Feature[];
-  link: string;
+  link?: string;
   buttonClass: string;
 }
 
@@ -42,7 +42,7 @@ export const pricingPlans: PricingPlan[] = [
       },
       { text: 'Special Paint "Premium Nick."' },
     ],
-    link: "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
+    // link: "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
     buttonClass: "gem-orange",
   },
   {
@@ -62,7 +62,7 @@ export const pricingPlans: PricingPlan[] = [
       },
       { text: 'Special Paint "Elite Nickname."' },
     ],
-    link: "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
+    // link: "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
     buttonClass: "gem-yellow",
   },
 ];

@@ -37,9 +37,20 @@ export function PricingColumn({
         ))}
         <div className="pricing-footer">
           <div className="gem-button-container gem-button-position-center">
-            <a href={link} className={cn("gem-button", buttonClass)}>
-              reserve now
-            </a>
+            {link ? (
+              <a href={link} className={cn("gem-button", buttonClass)}>
+                {t(`${type}.reserve`)}
+              </a>
+            ) : (
+              <span
+                className={cn(
+                  "gem-button !cursor-auto",
+                  buttonClass
+                )}
+              >
+                {t(`${type}.reserve`)}
+              </span>
+            )}
           </div>
         </div>
       </div>
