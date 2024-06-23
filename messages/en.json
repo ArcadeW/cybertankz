@@ -10,7 +10,7 @@
     "news": "News",
     "rules": "Rules",
     "forum": "Forum",
-    "wiki": "wiki",
+    "wiki": "Wiki",
     "esports": "eSports",
     "gallery": "Gallery"
   },
@@ -24,7 +24,8 @@
         "Special 'Free Nickname' paint in the game."
       ],
       "link": "https://en.cybertankzforum.com/register",
-      "buttonClass": "gem-green"
+      "buttonClass": "gem-green",
+      "reserve": "Reserve now"
     },
     "premium": {
       "title": "Premium Nickname",
@@ -34,8 +35,8 @@
         "Early access to the game (July 2024).",
         "Special 'Premium Nickname' paint in the game."
       ],
-      "link": "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
-      "buttonClass": "gem-orange"
+      "buttonClass": "gem-orange",
+      "reserve": "Contact imtheguap"
     },
     "elite": {
       "title": "Elite Nickname",
@@ -45,8 +46,8 @@
         "Early access to the game (July 2024).",
         "Special 'Elite Nickname' paint in the game."
       ],
-      "link": "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
-      "buttonClass": "gem-yellow"
+      "buttonClass": "gem-yellow",
+      "reserve": "Contact imtheguap"
     }
   }
 }
