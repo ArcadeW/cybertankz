@@ -12,7 +12,8 @@
     "forum": "Forum",
     "wiki": "Wiki",
     "esports": "eSports",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "progress": "Progress"
   },
   "PricingPlans": {
     "free": {
@@ -35,6 +36,7 @@
         "Early access to the game (July 2024).",
         "Special 'Premium Nickname' paint in the game."
       ],
+      "link": "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
       "buttonClass": "gem-orange",
       "reserve": "Contact imtheguap"
     },
@@ -46,6 +48,7 @@
         "Early access to the game (July 2024).",
         "Special 'Elite Nickname' paint in the game."
       ],
+      "link": "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
       "buttonClass": "gem-yellow",
       "reserve": "Contact imtheguap"
     }

@@ -1,6 +1,7 @@
 import GlitchSection from "@/components/modules/home/glitch-section";
 import { pricingPlans } from "@/components/modules/home/pricing/data";
 import { PricingColumn } from "@/components/modules/home/pricing/pricing-column";
+import Progress from "@/components/modules/home/progress";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
@@ -39,6 +40,9 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </div>
+      <div className="container">
+        <Progress />
       </div>
     </main>
   );

@@ -1,7 +1,10 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import { PricingPlan } from "./data";
 import { Check } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 export function PricingColumn({
   price,
@@ -12,6 +15,7 @@ export function PricingColumn({
   link,
   buttonClass,
 }: PricingPlan) {
+  const pathname = usePathname();
   const t = useTranslations("PricingPlans");
 
   return (
@@ -37,17 +41,12 @@ export function PricingColumn({
         ))}
         <div className="pricing-footer">
           <div className="gem-button-container gem-button-position-center">
-            {link ? (
+            {link && pathname != "/ru" ? (
               <a href={link} className={cn("gem-button", buttonClass)}>
                 {t(`${type}.reserve`)}
               </a>
             ) : (
-              <span
-                className={cn(
-                  "gem-button !cursor-auto",
-                  buttonClass
-                )}
-              >
+              <span className={cn("gem-button !cursor-auto", buttonClass)}>
                 {t(`${type}.reserve`)}
               </span>
             )}

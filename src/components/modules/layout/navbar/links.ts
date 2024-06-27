@@ -27,4 +27,8 @@ export const links = [
     title: "gallery",
     url: "",
   },
+  {
+    title: "progress",
+    url: "/progress",
+  },
 ];

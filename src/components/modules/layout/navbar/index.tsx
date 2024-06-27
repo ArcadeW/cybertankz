@@ -57,7 +57,7 @@ export default function Navbar() {
         {links.map((link, index) => (
           <li key={index}>
             <Link
-              href={link.url}
+              href={pathname + link.url}
               className={cn(
                 link.url.length === 0
                   ? "cursor-not-allowed text-foreground/60"

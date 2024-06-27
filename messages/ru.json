@@ -12,7 +12,8 @@
     "forum": "Форум",
     "wiki": "Вики",
     "esports": "Киберспорт",
-    "gallery": "Галерея"
+    "gallery": "Галерея",
+    "progress": "Прогресс"
   },
   "PricingPlans": {
     "free": {
@@ -35,6 +36,7 @@
         "Ранний доступ к игре (Июль 2024)",
         "Специальная краска \"Премиум-никнейм\" в игре"
       ],
+      "link": "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
       "buttonClass": "gem-orange",
       "reserve": "Обратиться к imtheguap"
     },
@@ -46,6 +48,7 @@
         "Ранний доступ к игре (Июль 2024)",
         "Специальная краска \"Премиум-никнейм\" в игре"
       ],
+      "link": "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
       "buttonClass": "gem-yellow",
       "reserve": "Обратиться к imtheguap"
     }
