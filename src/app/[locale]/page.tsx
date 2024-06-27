@@ -41,9 +41,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container">
-        <Progress />
-      </div>
     </main>
   );
 }

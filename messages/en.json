@@ -38,7 +38,7 @@
       ],
       "link": "https://buy.stripe.com/5kA9DF4NE6bYe3edQV",
       "buttonClass": "gem-orange",
-      "reserve": "Contact imtheguap"
+      "reserve": "Reserve now"
     },
     "elite": {
       "title": "Elite Nickname",
@@ -50,7 +50,7 @@
       ],
       "link": "https://buy.stripe.com/fZecPRcg61VI3oAcMS",
       "buttonClass": "gem-yellow",
-      "reserve": "Contact imtheguap"
+      "reserve": "Reserve now"
     }
   }
 }
