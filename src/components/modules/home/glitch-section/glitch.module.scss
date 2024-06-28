@@ -10,7 +10,7 @@
 .glitch {
   position: relative;
   color: #fff;
-  font-size: 80px;
+  font-size: 6vw;
 }
 
 .line:not(:first-child) {
@@ -58,5 +58,11 @@
     100% {
       transform: translateX(0);
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .glitch {
+    font-size: 10vw; /* Adjust font size for smaller screens */
   }
 }

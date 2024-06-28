@@ -28,7 +28,7 @@ export default function GlitchSection({
           </div>
         ))}
       </div>
-      <p className={cn("max-w-6xl text-center", inter.className)}>
+      <p className={cn("max-w-6xl text-center px-2", inter.className)}>
         {description}
       </p>
       <div className="flex items-center justify-center gap-2 pt-5">

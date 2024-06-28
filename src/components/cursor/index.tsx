@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import styles from "./cursor.module.css";
+import { cn } from "@/lib/utils";
 
 export function Cursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -19,7 +20,7 @@ export function Cursor() {
 
   return (
     <div
-      className={styles.cursor}
+      className={cn("xl:block hidden", styles.cursor)}
       style={{ left: position.x, top: position.y }}
     >
       <div

@@ -20,8 +20,7 @@ export default function Navbar() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("Links");
-
-  console.log(pathname);
+  const firstSegment = pathname.split("/")[1];
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -57,12 +56,13 @@ export default function Navbar() {
         {links.map((link, index) => (
           <li key={index}>
             <Link
-              href={link.external ? link.url : pathname + link.url}
+              href={link.url}
               className={cn(
                 link.url.length === 0
                   ? "cursor-not-allowed text-foreground/60"
                   : "text-foreground hover:text-foreground/80"
               )}
+              target={link.external ? "_blank" : "_self"}
             >
               {t(`${link.title}`)}
             </Link>
@@ -70,7 +70,7 @@ export default function Navbar() {
         ))}
         <Select
           onValueChange={(value: string) => router.push(`/${value}`)}
-          defaultValue={pathname.substring(1)}
+          defaultValue={firstSegment}
         >
           <SelectTrigger className="w-[140px] bg-[#171819] text-foreground">
             <SelectValue placeholder="Language" />
