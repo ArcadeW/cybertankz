@@ -46,9 +46,9 @@ export function PricingColumn({
                 {t(`${type}.reserve`)}
               </a>
             ) : (
-              <span className={cn("gem-button !cursor-auto", buttonClass)}>
+              <a href={"https://discord.gg/cybertankz"} className={cn("gem-button", buttonClass)}>
                 {t(`${type}.reserve`)}
-              </span>
+              </a>
             )}
           </div>
         </div>

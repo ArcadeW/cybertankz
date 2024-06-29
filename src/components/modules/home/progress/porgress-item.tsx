@@ -1,6 +1,8 @@
+import { useTranslations } from "next-intl";
 import { ProgressProps } from "./progress-data";
 
 export function ProgressItem({ name, status }: ProgressProps) {
+  const t = useTranslations("Progress");
   let statusColor;
 
   switch (status) {
@@ -18,7 +20,7 @@ export function ProgressItem({ name, status }: ProgressProps) {
   }
   return (
     <div className="flex justify-between items-center p-2 border-b border-gray-700">
-      <span className="text-white">{name}</span>
+      <span className="text-white">{t(name)}</span>
       <span className={`${statusColor}`}>{status}</span>
     </div>
   );
