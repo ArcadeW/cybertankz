@@ -46,7 +46,7 @@ export function PricingColumn({
                 {t(`${type}.reserve`)}
               </a>
             ) : (
-              <a href={"https://discord.gg/cybertankz"} className={cn("gem-button", buttonClass)}>
+              <a href={"https://ru.cybertankzforum.com/register"} className={cn("gem-button", buttonClass)}>
                 {t(`${type}.reserve`)}
               </a>
             )}
